@@ -1,0 +1,22 @@
+{
+  "name": "mmk_assignment",
+  "version": "1.0.0",
+  "description": "Assignment for MMK",
+  "main": "server.js",
+  "scripts": {
+    "test": "node server.js"
+  },
+  "keywords": [
+    "MMK_ASSIGNMENT"
+  ],
+  "author": "saikumar.vannati",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^16.3.1",
+    "express": "^4.18.2",
+    "pg": "^8.11.2",
+    "pg-hstore": "^2.3.4",
+    "redis": "^4.6.7",
+    "sequelize": "^6.32.1"
+  }
+}
